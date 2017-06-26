@@ -21,7 +21,7 @@ Orcaflex does not have the possibility to use time and location dependent enviro
 They don't :P
 
 # Where users can get help with your project
-Ca
+Call or mail one of the contributers 
 
 # Who maintains and contributes to the project
 -Bruno Saint-Rose for the environmental models and input
