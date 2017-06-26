@@ -1,17 +1,28 @@
 # FE_boom_model
 Finite element boom model to simulate system behaviour with environmental input
 
-GitHub
-(Doorverwezen vanaf Github)
-GitHub
-GitHub
-Type	Versiebeheersysteem
-Taal	Engels
-Registratie	Ja
-Eigenaar	GitHub, Inc.
-Opgericht	2008
-Status	Online
-Alexa-positie	62 (5 juni 2017)[1]
-Link	(en) GitHub.com
-Portaal  Portaalicoon  	Media
-GitHub is een populaire[1] website waarop software kan geplaatst worden. GitHub is gebouwd rond het Git-versiebeheersysteem, waardoor GitHub alle mogelijkheden van Git en eigen toevoegingen aanbiedt.
+# What the project does
+Simulate the boom behaviour and trajectory in environmental conditions obtained from three models: HYCOM, WWIII, CFSR.
+
+Input consists of:
+-Starttime, Endtime, timestep
+-Mechanical properties of the boom
+-Hydrodynamic properties of the boom
+
+Output consists of:
+-Position and speed of the nodes used in the simulation
+-Encoutered environmental conditions along it's trajectory
+-Number of escapes during the simulation period
+
+# Why the project is useful
+Orcaflex does not have the possibility to use time and location dependent environmental conditions. In addition, the current profile over depth is not something that can be modelled in Orcaflex. 
+
+# How users can get started with the project
+They don't :P
+
+# Where users can get help with your project
+Ca
+
+# Who maintains and contributes to the project
+-Bruno Saint-Rose for the environmental models and input
+-Reijnder de Feijter for the structural and hydrodynamic response of the system and the overall implementation
