@@ -6,12 +6,16 @@ Simulate the boom behaviour and trajectory in environmental conditions obtained 
 
 Input consists of:
 	-Starttime, Endtime, timestep
+	
 	-Mechanical properties of the boom
+	
 	-Hydrodynamic properties of the boom
 
 Output consists of:
 	-Position and speed of the nodes used in the simulation
+	
 	-Encoutered environmental conditions along it's trajectory
+	
 	-Number of escapes during the simulation period
 
 # Why the project is useful
@@ -24,5 +28,6 @@ They don't :P
 Call or mail one of the contributers 
 
 # Who maintains and contributes to the project
+Overall TOC, especially:
 	-Bruno Saint-Rose for the environmental models and input
 	-Reijnder de Feijter for the structural and hydrodynamic response of the system and the overall implementation
