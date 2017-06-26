@@ -5,6 +5,7 @@ Finite element boom model to simulate system behaviour with environmental input
 Simulate the boom behaviour and trajectory in environmental conditions obtained from three models: HYCOM, WWIII, CFSR.
 
 Input consists of:
+
 	-Starttime, Endtime, timestep
 	
 	-Mechanical properties of the boom
@@ -12,6 +13,7 @@ Input consists of:
 	-Hydrodynamic properties of the boom
 
 Output consists of:
+
 	-Position and speed of the nodes used in the simulation
 	
 	-Encoutered environmental conditions along it's trajectory
@@ -29,5 +31,6 @@ Call or mail one of the contributers
 
 # Who maintains and contributes to the project
 Overall TOC, especially:
+
 	-Bruno Saint-Rose for the environmental models and input
 	-Reijnder de Feijter for the structural and hydrodynamic response of the system and the overall implementation
